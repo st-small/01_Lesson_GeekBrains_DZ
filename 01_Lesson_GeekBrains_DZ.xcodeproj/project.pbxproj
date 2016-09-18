@@ -16,6 +16,7 @@
 		524937EC1D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524937EB1D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZTests.m */; };
 		524937F71D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524937F61D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m */; };
 		524938051D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 524938041D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg */; };
+		74E6441262440421E062EBB8 /* libPods-01_Lesson_GeekBrains_DZ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 126F0296B4334B77BC2A65F9 /* libPods-01_Lesson_GeekBrains_DZ.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		126F0296B4334B77BC2A65F9 /* libPods-01_Lesson_GeekBrains_DZ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01_Lesson_GeekBrains_DZ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE9CD2455EB98A2C10FFA3 /* Pods-01_Lesson_GeekBrains_DZ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Lesson_GeekBrains_DZ.release.xcconfig"; path = "Pods/Target Support Files/Pods-01_Lesson_GeekBrains_DZ/Pods-01_Lesson_GeekBrains_DZ.release.xcconfig"; sourceTree = "<group>"; };
 		524937CE1D8EEB380049B9F1 /* 01_Lesson_GeekBrains_DZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_Lesson_GeekBrains_DZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524937D21D8EEB380049B9F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		524937D41D8EEB380049B9F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		524937F61D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_Lesson_GeekBrains_DZUITests.m; sourceTree = "<group>"; };
 		524937F81D8EEB390049B9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		524938041D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg; sourceTree = "<group>"; };
+		944B0EA1037B927AF889A6A7 /* Pods-01_Lesson_GeekBrains_DZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01_Lesson_GeekBrains_DZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01_Lesson_GeekBrains_DZ/Pods-01_Lesson_GeekBrains_DZ.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E6441262440421E062EBB8 /* libPods-01_Lesson_GeekBrains_DZ.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310A7DFC005942A3B107857D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				126F0296B4334B77BC2A65F9 /* libPods-01_Lesson_GeekBrains_DZ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		524937C51D8EEB380049B9F1 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +100,8 @@
 				524937EA1D8EEB390049B9F1 /* 01_Lesson_GeekBrains_DZTests */,
 				524937F51D8EEB390049B9F1 /* 01_Lesson_GeekBrains_DZUITests */,
 				524937CF1D8EEB380049B9F1 /* Products */,
+				86D8B5244C19CCC7814F4D69 /* Pods */,
+				310A7DFC005942A3B107857D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +158,15 @@
 			path = 01_Lesson_GeekBrains_DZUITests;
 			sourceTree = "<group>";
 		};
+		86D8B5244C19CCC7814F4D69 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				944B0EA1037B927AF889A6A7 /* Pods-01_Lesson_GeekBrains_DZ.debug.xcconfig */,
+				49CE9CD2455EB98A2C10FFA3 /* Pods-01_Lesson_GeekBrains_DZ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 524937FB1D8EEB390049B9F1 /* Build configuration list for PBXNativeTarget "01_Lesson_GeekBrains_DZ" */;
 			buildPhases = (
+				C3F3FBF0F50498C8BECAA415 /* [CP] Check Pods Manifest.lock */,
 				524937CA1D8EEB380049B9F1 /* Sources */,
 				524937CB1D8EEB380049B9F1 /* Frameworks */,
 				524937CC1D8EEB380049B9F1 /* Resources */,
+				1B28E8C08D7E9F322B836DAD /* [CP] Embed Pods Frameworks */,
+				AC6EF65E20CFD82716B395FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +295,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B28E8C08D7E9F322B836DAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01_Lesson_GeekBrains_DZ/Pods-01_Lesson_GeekBrains_DZ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC6EF65E20CFD82716B395FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01_Lesson_GeekBrains_DZ/Pods-01_Lesson_GeekBrains_DZ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F3FBF0F50498C8BECAA415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		524937CA1D8EEB380049B9F1 /* Sources */ = {
@@ -417,6 +492,7 @@
 		};
 		524937FC1D8EEB390049B9F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944B0EA1037B927AF889A6A7 /* Pods-01_Lesson_GeekBrains_DZ.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Lesson_GeekBrains_DZ/Info.plist;
@@ -429,6 +505,7 @@
 		};
 		524937FD1D8EEB390049B9F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CE9CD2455EB98A2C10FFA3 /* Pods-01_Lesson_GeekBrains_DZ.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Lesson_GeekBrains_DZ/Info.plist;
@@ -504,6 +581,7 @@
 				524937FD1D8EEB390049B9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524937FE1D8EEB390049B9F1 /* Build configuration list for PBXNativeTarget "01_Lesson_GeekBrains_DZTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +590,7 @@
 				524938001D8EEB390049B9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		524938011D8EEB390049B9F1 /* Build configuration list for PBXNativeTarget "01_Lesson_GeekBrains_DZUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +599,7 @@
 				524938031D8EEB390049B9F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
