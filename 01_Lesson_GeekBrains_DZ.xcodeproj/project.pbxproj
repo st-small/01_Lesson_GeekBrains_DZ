@@ -15,6 +15,7 @@
 		524937E11D8EEB390049B9F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524937DF1D8EEB390049B9F1 /* LaunchScreen.storyboard */; };
 		524937EC1D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524937EB1D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZTests.m */; };
 		524937F71D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524937F61D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m */; };
+		524938051D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 524938041D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		524937F21D8EEB390049B9F1 /* 01_Lesson_GeekBrains_DZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 01_Lesson_GeekBrains_DZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524937F61D8EEB390049B9F1 /* _1_Lesson_GeekBrains_DZUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _1_Lesson_GeekBrains_DZUITests.m; sourceTree = "<group>"; };
 		524937F81D8EEB390049B9F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524938041D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				524937DA1D8EEB380049B9F1 /* Main.storyboard */,
 				524937DD1D8EEB390049B9F1 /* Assets.xcassets */,
 				524937DF1D8EEB390049B9F1 /* LaunchScreen.storyboard */,
+				524938041D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg */,
 				524937E21D8EEB390049B9F1 /* Info.plist */,
 				524937D11D8EEB380049B9F1 /* Supporting Files */,
 			);
@@ -245,6 +248,7 @@
 			files = (
 				524937E11D8EEB390049B9F1 /* LaunchScreen.storyboard in Resources */,
 				524937DE1D8EEB390049B9F1 /* Assets.xcassets in Resources */,
+				524938051D8EEC1C0049B9F1 /* polina_gagarina_ne_zhdi_menja_live_cover_anzhelika_varum.jpg in Resources */,
 				524937DC1D8EEB380049B9F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Lesson_GeekBrains_DZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SiS.-1-Lesson-GeekBrains-DZ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = 01_Lesson_GeekBrains_DZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SiS.-1-Lesson-GeekBrains-DZ";
 				PRODUCT_NAME = "$(TARGET_NAME)";
